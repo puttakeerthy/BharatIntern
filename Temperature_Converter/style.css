@@ -1,28 +1,40 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: orange;
-    margin: 0;
-    padding: 20px;
-    text-align: center;
-  }
+  font-family: Arial, sans-serif;
+  background-image: url('cloud-blue-sky.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
   
   h1 {
     color: #333;
+    justify-content: center;
   }
   
   .converter {
     max-width: 500px;
     margin: 0 auto;
-    background-color: rgb(204, 255, 0);
+    background-image: url('cloud2.jpg');
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
   
   label {
     display: block;
     margin-bottom: 10px;
     color: rgb(50, 47, 255);
+    text-align: center;
   }
   
   input {
@@ -30,4 +42,5 @@ body {
     padding: 10px;
     border: 1px solid rgb(255, 192, 237);
     border-radius: 3px;
+    text-align: center;
   }
